@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.1/font/bootstrap-icons.min.css"
+            integrity="sha512-WYaDo1TDjuW+MPatvDarHSfuhFAflHxD87U9RoB4/CSFh24/jzUHfirvuvwGmJq0U7S9ohBXy4Tfmk2UKkp2gA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>D&D</title>
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container bg-transparent text-white">
+                <a class="navbar-brand text-white" href="https://dnd.wizards.com/">Dungeons & Dragons</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> <!--Button for responsive site-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#How_to">How to</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#Class">Classes</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#Race">Race</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div> <!-- end div.collapse -->
+            </div> <!-- end div.container-fluid -->
+            </nav>
+
+        <section id="features" class="d-none d-md-block">
+            <div id="carouselFeatures" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselFeatures" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1">
+                    </button>
+                    <button type="button" data-bs-target="#carouselFeatures" data-bs-slide-to="1" aria-label="Slide 2">
+                    </button>
+                    <button type="button" data-bs-target="#carouselFeatures" data-bs-slide-to="2" aria-label="Slide 3">
+                    </button>
+                    <!-- Adding one more button for the fourth image -->
+                    <button type="button" data-bs-target="#carouselFeatures" data-bs-slide-to="3" aria-label="Slide 4">
+                    </button>
+                </div> <!-- end div.carousel-indicators -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/image/carousel1.jpeg" class="d-block w-100" alt="...">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="assets/image/carousel2.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/image/carousel3.jpeg" class="d-block w-100" alt="...">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="assets/image/carousel4.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                </div> <!-- end div.carousel-inner -->
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselFeatures"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button><!--left arrow-->
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselFeatures"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button><!--right arrow-->
+            </div> <!-- end div#carouselFeatures .carousel" -->
+        </section>
+        </header>
+
+        <section id="home" class="container mt-3 bg-dark bg-opacity-50 text-white">
+            <div class="d-md-flex align-items-center">
+                <article class="text-center text-md-start">
+                    <h1>Dungeons & Dragons</h1>
+                    <p class="lead">
+                        Dungeons & Dragons (commonly abbreviated as D&D or DnD) is a fantasy 
+                        tabletop role-playing game (RPG) originally designed by Gary Gygax and 
+                        Dave Arneson. The game was first published in 1974 by Tactical Studies 
+                        Rules, Inc. (TSR). It has been published by Wizards of the Coast (now a 
+                        subsidiary of Hasbro) since 1997. 
+                    <p class="lead">
+                        The game was derived from miniature wargames, with a variation of the 1971 game Chainmail 
+                        serving as the initial rule system. D&D's publication is commonly recognized as the beginning of 
+                        modern role-playing games and the role-playing game industry, and also deeply 
+                        influenced video games, especially the role-playing video game genre.
+                    </p>
+                    <button type="button" class="btn btn-light btn-lg my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Sign up now!
+                    </button>
+                </article> <!-- end article for text -->
+                <img src="assets/image/first_img.jpg" alt="Dnd Illustration" class="w-50 img-fluid rounded d-none d-sm-block mx-3">
+            </div> <!-- end div for flex -->
+        </section>
+
+
+        <section class="container py-3 bg-transparent">
+            <div class="row text-center gap-2">
+                <div class="col-md">
+                    <div class="card bg-light bg-gradient">
+                        <div class="bg-danger bg-opacity-25">
+                            <i class="bi bi-dice-6-fill fs-1"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Dice</h5>
+                            <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </p>
+                            <!-- formatting the a link a button -->
+                            <a href="https://www.dndbeyond.com/my-dice" class="btn btn-outline-danger">More information</a>
+                        </div>
+                    </div> <!-- end BS div.card-->
+                </div> <!-- end div.col-md -->
+
+                <div class="col-md">
+                    <div class="card bg-light bg-gradient">
+                        <div class="bg-danger bg-opacity-25">
+                            <i class="bi-map-fill fs-1"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Map</h5>
+                            <p class="card-text">
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                                ut aliquip ex ea commodo consequat.
+                            </p>
+                            <a href="https://www.dndbeyond.com/marketplace/sourcebooks/acquisitions-incorporated" class="btn  btn-outline-danger">More information</a>
+                        </div>
+                    </div> <!-- end BS div.card-->
+                </div> <!-- end div.col-md -->
+
+                <div class="col-md">
+                    <div class="bg-danger bg-opacity-25">
+                        <i class="bi-file-earmark-fill fs-1"></i>
+                    </div>
+                    <div class="card bg-light bg-gradient">
+                        <div class="card-body">
+                            <h5 class="card-title">Character sheet</h5>
+                            <p class="card-text">
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+                                officia deserunt mollit anim id est laborum.
+
+                            </p>
+                            <a href="https://www.dndbeyond.com/sources/basic-rules/step-by-step-characters#Chapter1Step-By-StepCharacters" class="btn btn-outline-danger">More information</a>
+                        </div>
+                    </div> <!-- end BS div.card-->
+                </div> <!-- end div.col-md -->
+            </div> <!-- end div.row -->
+        </section>
+
+        <section id="How_to" class="container bg-transparent">
+            <hr>
+            <div class="row align-items-center">
+                <div class="col-md border border-secondary rounded-3 bg-light p-2">
+                    <h3>How to Play</h3>
+                    <p>Ready to begin playing Dungeons & Dragons? Let's get you started!<br>
+                        In D&D, each player creates a heroic character to represent them in the game: 
+                        this might be a skilled fighter, a devout cleric, a deadly rogue, a spellcasting 
+                        wizard, or something else entirely!
+                    </p>
+                    <a class="btn btn-outline-danger w-75 d-block m-auto" href="https://dnd.wizards.com/how-to-play" role="button">
+                        More on how to play
+                        <i class="bi-caret-right-fill"></i>
+                    </a>
+                </div>
+
+                <div class="col-md">
+                    <img src="assets/image/how_to_play.jpg" class="w-100" alt="How to play Image">
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md">
+                    <img src="assets/image/how_to_dm.jpg" class="w-100" alt="How to DM Image">
+                </div>
+                <div class="col-md border border-secondary rounded-3 bg-light p-2">
+                    <h3>How to DM</h3>
+                    <p>In D&D, one person takes on the role of Dungeon Master. 
+                        Provided below are resources to help make the incredible jump behind the DM screen!<br>
+                        The DM describes the locations and creatures in an adventure, and the players decide what 
+                        they want their characters to do. Then the DM, using imagination and the game's rules, determine 
+                        the results of their actions and narrates what they experience.
+                    </p>
+                    <a class="btn btn-outline-danger w-75 d-block m-auto" href="https://dnd.wizards.com/how-to-dm" role="button">
+                        More on how to DM
+                        <i class="bi-caret-right-fill"></i>
+                    </a>
+                </div>
+            </div> <!-- end div.row -->
+            <hr>
+        </section>
+
+        <section id="Class" class="container text-center bg-transparent">
+            <h2>Classes</h2>
+            <p class="lead text-center">Explore just a few of the options here, and find more in the Player’s Handbook and at D&D Beyond!</p>
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="assets/image/Fighter.png" class="card-img-top rounded-circle w-50 m-auto m-auto" alt="Fighter">
+                        <div class="card-body">
+                            <h5 class="card-title">Fighter</h5>
+                            <p class="card-text">Questing knights, conquering overlords, royal champions, elite foot soldiers, 
+                                hardened mercenaries, and bandit kings—as fighters, they all share an unparalleled mastery 
+                                with weapons and armor, and a thorough knowledge of the skills of combat.</p>
+                            <a href="https://www.dndbeyond.com/classes/fighter" class="btn btn-outline-danger">
+                                Read the full entry
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="assets/image/Wizard.png" class="card-img-top rounded-circle w-50 m-auto" alt="Wizard">
+                        <div class="card-body">
+                            <h5 class="card-title">Wizard</h5>
+                            <p class="card-text">Wizards are supreme magic-users, defined and united as a class by the spells they cast. 
+                                Drawing on the subtle weave of magic that permeates the cosmos, wizards cast spells of explosive fire,
+                                arcing lightning, subtle deception...</p>
+                            <a href="https://www.dndbeyond.com/classes/wizard" class="btn btn-outline-danger">
+                                Read the full entry
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="assets/image/Rogue.png" class="card-img-top rounded-circle w-50 m-auto" alt="Rogue">
+                        <div class="card-body">
+                            <h5 class="card-title">Rogue</h5>
+                            <p class="card-text">Rogues rely on skill, stealth, and their foes’ vulnerabilities to get the upper hand in any 
+                                situation. They have a knack for finding the solution to just about any problem, bringing resourcefulness 
+                                and versatility to their adventuring parties.</p>
+                            <a href="https://www.dndbeyond.com/classes/rogue" class="btn btn-outline-danger">
+                                Read the full entry
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="assets/image/Ranger.png" class="card-img-top rounded-circle w-50 m-auto" alt="Ranger">
+                        <div class="card-body">
+                            <h5 class="card-title">Ranger</h5>
+                            <p class="card-text">A warrior who combats threats on the edges of civilization. <br>
+                                Far from the bustle of cities and towns, amid the dense-packed trees of 
+                                trackless forests and across wide and empty plains, rangers keep their unending watch.</p>
+                            <a href="https://www.dndbeyond.com/classes/ranger" class="btn btn-outline-danger">
+                                Read the full entry
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- End div.row -->
+        </section>
+
+        <section id="Race">
+            <div class="container">
+                <h2 class="text-center">Races</h2>
+                <div class="accordion" id="accordFAQ">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                Human
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordFAQ">
+                            <div class="accordion-body">
+                                <p>In the reckonings of most worlds, humans are the youngest of the common races, 
+                                    late to arrive on the world scene and short-lived in comparison to dwarves, 
+                                    elves, and dragons. Whatever drives them, humans are the innovators, the achievers, 
+                                    and the pioneers of the worlds.
+                                </p>
+                                <a href="https://www.dndbeyond.com/races/1-human" class="text-danger">
+                                    Read the full entry
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Elf
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordFAQ">
+                            <div class="accordion-body">
+                                <p>Elves are a magical people of otherworldly grace, living in the world but not entirely part of it.</p>
+                                <a href="https://www.dndbeyond.com/races/3-elf" class="text-danger">
+                                    Read the full entry
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Dwarf
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordFAQ">
+                            <div class="accordion-body">
+                                <p>Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal.</p>
+                                <a href="https://www.dndbeyond.com/races/13-dwarf" class="text-danger">
+                                    Read the full entry
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Halfling
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordFAQ">
+                            <div class="accordion-body">
+                                <p>The diminutive halflings survive in a world full of larger creatures by avoiding notice or, barring that, avoiding offense.</p>
+                                <a href="https://www.dndbeyond.com/races/14-halfling" class="text-danger">
+                                    Read the full entry
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Gnome
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordFAQ">
+                            <div class="accordion-body">
+                                <p>Gnomes take delight in life, enjoying every moment of invention, exploration, investigation, creation, and play.</p>
+                                <a href="https://www.dndbeyond.com/races/18-gnome" class="text-danger">
+                                    Read the full entry
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- end div.accordion -->
+            </div> <!-- end div.container -->
+        </section>
+
+        <section id="contact" class="mt-3 mb-3 container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="text-center">Get in touch</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" aria-describedby="fullNameHelp">
+                        <div id="fullNameHelp" class="form-text">
+                            Write your full name to be used when we don't contact you.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="pronom" class="form-label">Your pronoms</label><br>
+                        <input type="checkbox" id="she" name="she" value="SheHer">
+                        <label for="vehicle1"> She / Her</label><br>
+                        <input type="checkbox" id="he" name="he" value="HeHim">
+                        <label for="vehicle2"> He / Him</label><br>
+                        <input type="checkbox" id="they" name="they" value="TheyTheir">
+                        <label for="vehicle3"> They / Their</label><br>
+                        <div id="pronomHelp" class="form-text">
+                            Chose the pronoms you want us to use.
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll share your email with everyone.</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="messageTextarea" class="form-label">
+                            Your Message
+                        </label>
+                        <textarea class="form-control" aria-label="Your Message" id="messageTextarea">
+                        </textarea>
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">
+                            Receive an update about our new courses!
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-outline-danger">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+
+            <div class="col-md-6">
+                <h2 class="text-center">Contact Info</h2>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item my-2">
+                        <span class="fw-bold">Our Location:</span>
+                        1234 Dragonlance Street, DnD multiverse
+                    </li>
+
+                    <li class="list-group-item my-2">
+                        <span class="fw-bold">A better website:</span>
+                        <a href="https://www.dndbeyond.com/" class="text-black text-decoration-none">DnD Beyond</a>
+                    </li>
+
+                    <li class="list-group-item my-2">
+                        <span class="fw-bold">General Enquiry Email:</span>
+                        info@wehatedrow.com
+                    </li>
+
+                    <li class="list-group-item my-2">
+                        <span class="fw-bold">Registration Email:</span>
+                        register@weloveowlbear.com
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script> <!--For the carrousel-->
+        
+    </body>
+</html>
